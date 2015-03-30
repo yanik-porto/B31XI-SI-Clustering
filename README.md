@@ -3,7 +3,7 @@
 **Table-of-contents**
 
 * [Dependencies](#dependencies)
-* [Features extraction](#features-extraction)
+* [Clustering](#clustering)
 * [To perform the practise](#to-perform-the-practise)
 
 More description is given in the subsections.
@@ -20,22 +20,23 @@ In order to use the Ipython Notebook, the following dependencies are needed:
 * Scipy - `sudo apt-get install python-scipy`
 * Matplotlib - `sudo apt-get install python-matplotlib`
 * Mpld3 - `sudo pip install mpld3`
-* Plotly - `sudo pip install plotly`
 * Scikit-learn - `sudo apt-get install python-sklearn`
+* Scikit-fuzzy - `sudo pip install -U scikit-fuzzy`
+* Scikit-image - `sudo apt-get install python-skimage`
 
 We strongly recommend to use a Linux environment to perform this practise.
 
-## Features extraction
+## Clustering
 
-Synthetic data will be generated. An implementation of Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) will be implemented. A comparison with the scikit-learn implementation can be performed.
+Synthetic data will be generated. K-means as well as Fuzzy C-means will be used in order to cluster these data and understand the main differences between these two algorithms. These algorithms are then used to segment vessels in retina images.
 
-### Principal components analysis (PCA)
+### K-means
 
-Insights about PCA can be found in this nice article [here](https://hal-univ-bourgogne.archives-ouvertes.fr/hal-00903901/document) by D. Sidibe.
+Insights about K-means can be found [here](http://en.wikipedia.org/wiki/K-means_clustering).
 
-### Linear discriminant analysis (LDA)
+### Fuzzy C-means
 
-Insights about LDA can be found in this article [here](http://faculty.ist.psu.edu/jessieli/Publications/ecmlpkdd11_qgu.pdf).
+Insights about K-means can be found [here](http://en.wikipedia.org/wiki/Fuzzy_clustering).
 
 ## To perform the practise
 
@@ -56,7 +57,7 @@ Enter the following command in a terminal `ipython notebook`.
 
 This command should run the server locally via your default web browser and you will be able to play with the notebook.
 
-If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/ViBOT-Erasmus/B31XI-SI-Features-Extraction/blob/master/02-features-extraction.ipynb).
+If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/glemaitre/B31XI-SI-Clustering/blob/master/03-clustering.ipynb).
 
 Enjoy!!!
 
