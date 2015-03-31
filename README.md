@@ -29,7 +29,7 @@ We strongly recommend to use a Linux environment to perform this practise.
 ## Clustering
 
 The following module of the framework will be studied:
-![Alt text](./readme-images-pr-framework-fc.png)
+![Alt text](./readme-images/pr-framework-fc.png)
 
 Synthetic data will be generated. K-means as well as Fuzzy C-means will be used in order to cluster these data and understand the main differences between these two algorithms. These algorithms are then used to segment vessels in retina images.
 
